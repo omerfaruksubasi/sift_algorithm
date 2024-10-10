@@ -2,8 +2,8 @@ import numpy as np
 import cv2 as cv
 import matplotlib.pyplot as plt
  
-img1 = cv.imread('C:\Users\omerf\Desktop\STAJ\keypoint_algorithms\orb_algorithm\bayrak.jpg',cv.IMREAD_GRAYSCALE)# queryImage
-img2 = cv.imread('C:\Users\omerf\Desktop\STAJ\keypoint_algorithms\orb_algorithm\bayraklar.jpg',cv.IMREAD_GRAYSCALE) # trainImage
+img1 = cv.imread('table.jpg',cv.IMREAD_GRAYSCALE)# queryImage
+img2 = cv.imread('pic.jpg',cv.IMREAD_GRAYSCALE) # trainImage
  
 # Initiate SIFT detector
 sift = cv.SIFT_create()
