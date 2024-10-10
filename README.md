@@ -30,7 +30,7 @@ The image below shows an example of the SIFT algorithm in action. It demonstrate
 - The SIFT algorithm has identified key points in both images. These key points represent distinctive features such as corners, edges, or texture patterns.
 - The lines between the images show the matching key points. Each line connects a feature in the left image to its corresponding feature in the right image, demonstrating how SIFT can match similar features across different images.
 
-![SIFT Keypoints Example]((https://github.com/omerfaruksubasi/sift_algorithm/blob/main/SIFT_Algorithm.png))
+![SIFT Keypoints Example](https://github.com/omerfaruksubasi/sift_algorithm/raw/main/SIFT_Algorithm.png)
 
 In this example, you can see how SIFT has detected key points in both images (marked as circles), and matched the corresponding points using feature descriptors. These matched points are visualized with lines connecting the points in both images, showing how well the algorithm works even with differences in perspective or scene content.
 
